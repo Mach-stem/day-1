@@ -1,37 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Berserk</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body">
   <div class="header">
-    <video autoplay muted loop playsinline poster="img/Berserk_manga-1.png">
+    <video autoplay muted loop >
       <source src="vid/header.mp4" type="video/mp4">
-      <img src="img/Berserk_manga-1.png" alt="Berserk background">
     </video>
     <div class="left">
-      <img class="logoname" src="img/Berserk_manga-1.png" alt="Logo" loading="lazy">
+      <img class="logoname" src="img/Berserk_manga-1.png">
     </div>
   </div>
-  <main class="main">
-    <nav class="nav">
-      <div><img title="Home" class="icon" src="img/home.jpg" alt="Home" loading="lazy"></div>
-      <div><img title="Manga" class="icon" src="img/manga.jpg" alt="Manga" loading="lazy"></div>
-      <div><img title="Reviews" class="icon" src="img/review.jpg" alt="Reviews" loading="lazy"></div>
-    </nav>
-    <section class="search-container">
-      <input class="search" type="text" placeholder="Search...">
-      <button class="searchbtn"><span class="a">Search</span></button>
-    </section>
-    <section class="block">
-      <video class="back" autoplay muted loop playsinline poster="img/Berserk_manga-1.png">
-        <source src="vid/back.mp4" type="video/mp4">
-        <img src="img/Berserk_manga-1.png" alt="Berserk background">
-      </video>
-    </section>
-  </main>
+  <div class="main">
+    <div class="nav">
+      <div>
+        <img title="Home" class="icon" src="img/home.jpg">
+      </div>
+      <div>
+        <img title="Manga" class="icon" src="img/manga.jpg">
+      </div>  
+      <div>
+        <img title="Reviews" class="icon" src="img/review.jpg">
+      </div>  
+    </div> 
+  <div class="search-container">    
+      <input class="search" type="text"   placeholder="Search...">
+      <button class="searchbtn"><span class="a">Search</span></button >
+  </div>
+  <div class="block">
+    <video class="back" autoplay muted loop >
+      <source src="vid/back.mp4" type="video/mp4">
+    </video>
+  </div>
 </body>
-</html>
